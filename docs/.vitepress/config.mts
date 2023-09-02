@@ -1,15 +1,15 @@
 import { defineConfig } from 'vitepress'
+import { nav } from './nav.mjs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project1",
-  description: "A VitePress Site1",
+  title: "VAYO",
+  description: "VAYO",
   themeConfig: {
+
+    logo: "/avartar/vayo_avatar.jpg", // 表示docs/public/avartar/vayo_avatar.jpg
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    nav: nav,
 
     sidebar: [
       {
@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }  // 右上角github图标
     ]
   }
 })
