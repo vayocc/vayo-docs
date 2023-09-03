@@ -11,7 +11,7 @@ lastUpdated: true
 hero:
   name: "VAYO"
   text: "Keep Exercise, Keep Study."
-  tagline: VAYO的工作笔记
+  tagline: "尽管我在笔记方面没有天赋，但我决心努力记下每一个重要细节。"
   image:
     # 首页右边的图片
     src: /public/avartar/vayo_avatar_pixian.png
@@ -37,5 +37,8 @@ features:
   - title: -0-
     icon: 🧩
     details: 这个家伙很懒 什么都没留下
+
+
+
 ---
 
