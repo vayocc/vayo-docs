@@ -1,3 +1,4 @@
+<!--home 自定义组件-->
 <template>
     <div class="home-wrapper">
         <div v-for="item in list" :key="item" class="home-item">{{ item }}</div>
