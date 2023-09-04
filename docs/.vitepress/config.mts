@@ -7,7 +7,16 @@ import { sidebar } from './sidebar.mjs';
 export default defineConfig({
   title: "VAYO",
   description: "VAYO",
+  //开启上次更新时间
+  lastUpdated: true,
+  // 网页头部信息
+  head: [
+    ['link', { rel: 'icon', href: './public/favicon.ico' }]
+  ],
+  // 语言
+  lang: 'en-US',
   themeConfig: {
+
 
     logo: "/avartar/vayo_avatar_pixian.png", // 表示docs/public/avartar/vayo_avatar.jpg
     // https://vitepress.dev/reference/default-theme-config
