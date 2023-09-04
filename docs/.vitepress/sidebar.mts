@@ -3,6 +3,17 @@
 // docs/.vitepress/relaConf/navbar.ts
 import { DefaultTheme } from 'vitepress';
 export const sidebar: DefaultTheme.Sidebar = {
+
+
+    '/examples/':[
+        {
+            text: 'Examples',
+            items: [
+                { text: 'Markdown Examples', link: '/examples/markdown-examples' },
+                { text: 'Runtime API Examples', link: '/examples/api-examples' }
+            ]
+        }
+    ],
     // /column/Algothm/表示对这个文件夹下的所有md文件做侧边栏配置
     '/column/Algorithm/': [
         // 第一部分

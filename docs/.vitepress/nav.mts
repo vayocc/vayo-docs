@@ -6,6 +6,10 @@ export const nav: DefaultTheme.NavItem[] = [
         link: '/' // 表示docs/index.md
     },
     {
+        text: 'examples',
+        link : '/examples/'
+    },
+    {
         text: '个人成长',
         items: [
             {
