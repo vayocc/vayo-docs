@@ -23,6 +23,14 @@ export default defineConfig({
     nav:nav,
 
     sidebar: sidebar,
+    outline: {
+      level: [2, 6],
+      label: '目录'
+    },
+    // 页脚
+    footer: {
+      copyright: "Copyright © 2022-present VAYO",
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }  // 右上角github图标
