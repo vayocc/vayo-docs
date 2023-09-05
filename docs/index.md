@@ -14,7 +14,7 @@ hero:
   tagline: "虽未有备忘之才 然尽心力而为之"
   image:
     # 首页右边的图片
-    src: /public/avartar/vayo_avatar_pixian.png
+    src: /avartar/vayo_avatar_pixian.png
     # 图片的描述
     alt: hello   
   actions:
