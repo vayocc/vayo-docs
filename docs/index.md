@@ -19,10 +19,10 @@ hero:
     alt: hello   
   actions:
     - theme: brand
-      text: 上上下下 左右左右
+      text: 上上下下 左右左右 BABA
       link: /markdown-examples
     - theme: alt
-      text: BABA   你有30条命?
+      text: 你有30条命?
       link: /api-examples
  
 
