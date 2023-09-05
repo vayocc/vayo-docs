@@ -11,15 +11,13 @@ export default defineConfig({
   lastUpdated: true,
   // 网页头部信息
   head: [
-    ['link', { rel: 'icon', href: '/vite-p-st/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   // 语言
   lang: 'en-US',
   base: '/vite-p-st/' ,
   themeConfig: {
-
-
-    logo: "/avartar/vayo_avatar_pixian.png", // 表示docs/public/avartar/vayo_avatar.jpg
+    logo: "/favicon.ico", // 表示docs/public/avartar/vayo_avatar.jpg
     // https://vitepress.dev/reference/default-theme-config
     nav:nav,
 
