@@ -11,7 +11,7 @@ export default defineConfig({
   lastUpdated: true,
   // 网页头部信息
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/vite-p-st/favicon.ico' }]
   ],
   // 语言
   lang: 'en-US',
