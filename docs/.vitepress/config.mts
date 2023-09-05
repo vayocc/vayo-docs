@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav } from './nav.mjs';
 import { sidebar } from './sidebar.mjs';
 
+const base = '/vite-p-st/';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,12 +11,12 @@ export default defineConfig({
   //开启上次更新时间
   lastUpdated: true,
   // 网页头部信息
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ],
+  base: base ,
   // 语言
+  head: [
+    ['link', { rel: 'icon', href: base + 'favicon.ico' }]
+  ],
   lang: 'en-US',
-  base: '/vite-p-st/' ,
   themeConfig: {
     logo: "/favicon.ico", // 表示docs/public/avartar/vayo_avatar.jpg
     // https://vitepress.dev/reference/default-theme-config
