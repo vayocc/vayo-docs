@@ -11,7 +11,7 @@ lastUpdated: true
 hero:
   name: "VAYO"
   text: "Keep Exercise, Keep Study."
-  tagline: "未有备忘之才 然尽力而为"
+  tagline: "虽未有备忘之才 然尽心力而为之"
   image:
     # 首页右边的图片
     src: /public/avartar/vayo_avatar_pixian.png
@@ -19,12 +19,14 @@ hero:
     alt: hello   
   actions:
     - theme: brand
-      text: AAAAAAA
+      text: 上上下下
       link: /markdown-examples
     - theme: alt
-      text: BBBBBBB
+      text: 左左右右
       link: /api-examples
-
+    - theme: alt
+      text: BABA
+      link: /api-examples
 
 features:
   - title: 全栈程序员
