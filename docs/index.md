@@ -19,14 +19,12 @@ hero:
     alt: hello   
   actions:
     - theme: brand
-      text: 上上下下
+      text: 上上下下 左右左右
       link: /markdown-examples
     - theme: alt
-      text: 左左右右
+      text: BABA   你有30条命?
       link: /api-examples
-    - theme: alt
-      text: BABA
-      link: /api-examples
+ 
 
 features:
   - title: 全栈程序员

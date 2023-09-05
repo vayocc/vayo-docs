@@ -15,6 +15,7 @@ export default defineConfig({
   ],
   // 语言
   lang: 'en-US',
+  base: '/vite-p-st/' ,
   themeConfig: {
 
 
