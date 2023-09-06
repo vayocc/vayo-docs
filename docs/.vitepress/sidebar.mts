@@ -12,6 +12,21 @@ export const sidebar: DefaultTheme.Sidebar = {
                 { text: 'Markdown Examples', link: '/examples/markdown-examples' },
                 { text: 'Runtime API Examples', link: '/examples/api-examples' }
             ]
+        },
+        {
+            text: 'Section Title A',
+            collapsed: true, // 默认折叠
+            items: [
+                { text: 'Markdown Examples', link: '/examples/markdown-examples' },
+                { text: 'Runtime API Examples', link: '/examples/api-examples' },
+                {
+                    text: 'Level 3',
+                    items: [
+                        { text: 'Markdown Examples', link: '/examples/markdown-examples' },
+                        { text: 'Runtime API Examples', link: '/examples/api-examples' },
+                    ]
+                }
+            ]
         }
     ],
     // /column/Algothm/表示对这个文件夹下的所有md文件做侧边栏配置

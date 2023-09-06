@@ -3,6 +3,8 @@
 
 /* Color Base */
 :root {
+    --vp-c-brand-1: #646cff;
+    --vp-c-brand-2: #747bff;
     --vp-c-purple: #b185db;
     --vp-c-purple-light: #c19ee0;
     --vp-c-purple-lighter: #d2b7e5;

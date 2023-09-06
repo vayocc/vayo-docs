@@ -4,7 +4,7 @@ import './custom.css'
 export default {
     ...DefaultTheme,
     enhanceApp({ app }) {
-        // register global components
+        // register your custom global components
         app.component('MyGlobalComponent' /* ... */);
     }
 };

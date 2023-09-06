@@ -28,11 +28,21 @@ export default defineConfig({
     },
     // 页脚
     footer: {
+      // message: 'Released under the MIT License.',
       copyright: "Copyright © 2022-present VAYO",
     },
-
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
+    // 编辑连接
+    /*editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: 'Edit this page on GitHub',
+    },*/
+    // 社交连接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }  // 右上角github图标
+      { icon: 'github', link: 'https://github.com/' }  // 右上角github图标
     ]
   }
 })
