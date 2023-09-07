@@ -28,14 +28,15 @@ hero:
 
 features:
   - title: 全栈程序员
-    icon: 🧩
+    icon: 🛠️
     details: 6K前后端自动化数据分析 全干程序员 27岁纯牛马
-    link: /column/views/guide
+    link: /articles/views/guide
+    # linkText: linkText
   - title: 广告位招租(bushi
-    icon: 🧩
+    icon: 🛠️
     details: ...
   - title: -0-
-    icon: 🧩
+    icon: 🛠️
     details: 这个家伙很懒 什么都没留下
 
 

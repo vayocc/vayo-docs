@@ -1,4 +1,5 @@
 import { DefaultTheme } from 'vitepress';
+
 export const nav: DefaultTheme.NavItem[] = [
     // examples { text: 'Home', link: '/' },{ text: 'Examples', link: '/markdown-examples' },
     {
@@ -7,18 +8,18 @@ export const nav: DefaultTheme.NavItem[] = [
     },
     {
         text: 'examples',
-        link : '/examples/'
+        link : '/articles/examples/'
     },
     {
         text: '个人成长',
         items: [
             {
                 text: '大江南北游记',
-                link: '/column/Travel/' // 表示docs/column/Travel/index.md
+                link: '/q' // 表示docs/articles/Travel/index.md
             },
             {
                 text: '所思·所想',
-                link: '/column/Growing/' // 表示docs/column/Growing/index.md
+                link: '/articles/Growing/' // 表示docs/articles/Growing/index.md
             }
         ]
     },
@@ -27,7 +28,7 @@ export const nav: DefaultTheme.NavItem[] = [
         items: [
             {
                 text: '数据结构与算法',
-                link: '/column/Algorithm/' // 对应docs/column/Algorithm下的index.md文件
+                link: '/articles/Algorithm/' // 对应docs/articles/Algorithm下的index.md文件
             }
         ]
     },
