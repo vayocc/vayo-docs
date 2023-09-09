@@ -54,10 +54,26 @@ function readFile(dir = docsRoot, sidebarItemList = [], fpath = '') {
     })
     return sidebarItemList
 }
-const list  = readFile(docsRoot,[],one)
+const sidebarItems  = readFile(docsRoot,[],one)
+
+
+function writeSidebarConfig(){
+    const sidebarConfig = {};
+    // 设置键值对
+    const keyName = oneself.replace(/\\/g, '/');
+    sidebarConfig[`/${keyName}/`] = [
+        {
+            text: one,
+            items:  sidebarItems,
+        },
+    ];
+    return sidebarConfig;
+}
 // console.log(JSON.stringify(list))
 // JSON.stringify() 方法的第一个参数是要格式化的数据，
 // 第二个参数为 null，表示不进行任何替换操作，
 // 第三个参数为 2，表示使用两个空格缩进。
 // 通过将数据对象 data 进行格式化，你将获得更易读的输出结果
-console.log(JSON.stringify(list, null, 2));
+console.log(JSON.stringify(sidebarItems, null, 2));
+console.log('----------');
+console.log(JSON.stringify(writeSidebarConfig(), null, 2));
