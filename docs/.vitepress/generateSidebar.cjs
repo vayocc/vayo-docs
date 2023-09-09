@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path
     = require('path');
-const one  = 'javaUtil/';
+const one  = 'examples';
 const rootPath  = '/articles/';
 const oneself  = rootPath + one;
 
@@ -14,8 +14,9 @@ function generateSidebarConfig(rootDir, sidebarConfig, baseDir = '') {
     files.forEach((file) => {
         const filePath = path.join(rootDir, file);
         const stat = fs.statSync(filePath);
-
+        // console.log(stat);
         if (stat.isDirectory()) {
+
             const subdirConfig = {};
             const subdirBaseDir = path.join(baseDir, file);
             generateSidebarConfig(filePath, subdirConfig, subdirBaseDir);

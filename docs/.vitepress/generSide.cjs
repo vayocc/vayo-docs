@@ -1,18 +1,21 @@
 const fs = require('fs') // 文件模块
 const path = require('path') // 路径模块
-const docsRoot = path.join(__dirname, '..', '..', '..') // docs文件路径
+const one  = 'examples'; // examples
+const rootPath  = 'articles'; // articles
+const oneself  = path.join(rootPath ,one);
+
+
+
+// __dirname 用于获取当前模块的所在目录的绝对路径 path.dirname(__dirname) 将返回 __dirname 的父目录的路径
+// path.resolve(__dirname,'..') 要获取当前模块所在的上级目录的绝对路径
+
+const docsRoot = path.join( path.resolve(__dirname,'..'), oneself)
 const log = console.log
 
-function readFile(dir = docsRoot, filesList = [], fpath = '') {
+function readFile(dir = docsRoot, sidebarItemList = [], fpath = '') {
     let files = fs.readdirSync(dir)
-    // 10 1排序错误
-    if(Array.isArray(files)){
-        files.sort((item1, item2) => {
-            let c1 = item1.split('.')[0]
-            let c2 = item2.split('.')[0]
-            return c1 - c2
-        })
-    }
+    // 1 10 排序错误
+
     console.log('------');
     console.log(files);
     files.forEach((item, index) => {
@@ -21,52 +24,40 @@ function readFile(dir = docsRoot, filesList = [], fpath = '') {
         // log('isDirectory-------------------', stat.isDirectory(), item)
         // isDirectory 返回是否文件夹, 4.file.md dir:/Users/xx/reg-rules-js-site/docs/regular
         const fileNameArr = path.basename(filePath).split('.')
-        if (stat.isDirectory() && item !== '.vuepress') {
+        if (stat.isDirectory()) {
+            // 如果是目录的话先不让他走了
+            return
             // 生成目录名
             let title = fileNameArr.length > 1 ? fileNameArr[1] : fileNameArr[0]
             if(!title){
                 log(`warning: 该文件夹 "${filePath}" 没有按照约定命名，将忽略生成相应数据。`)
                 return
             }
-            filesList.push({
+            sidebarItemList.push({
                 title,
                 collapsable: false,
                 children: [],
             })
             // log('递归读取文件夹的文件', path.join(dir, item), filesList[index].children, item)
             // 递归读取文件夹的文件 /Users/another/Documents/self-study/reg-rules-js-site/docs/test/test2 [] test2
-            readFile(path.join(dir, item), filesList[index].children, item)
-        } else {
-            // 生成文件名数组
-            let name = null
-            title = null
-            typeFile = null
-            pathName = null
-            let cloneArr = [...fileNameArr]
-            typeFile = cloneArr[cloneArr.length - 1]
-            if (fileNameArr.length > 1) {
-                cloneArr.pop()
-                name = cloneArr.join('.')
-                pathName = fpath ? `${fpath}/${name}` : name
-                title = cloneArr.length > 1 ? cloneArr[1] : cloneArr[0]
-            } else {
-                log(`warning: 该文件 "${filePath}" 没有按照约定命名，将忽略生成相应数据。`)
-                return
-            }
-
-            log('name', name, pathName, typeFile, title)
-            if(name === 'README'){
-
-            }
-            // 过滤非md文件
-            if (typeFile === 'md') {
-                if(name === 'README') return filesList.unshift('')
-                // filesList.push([pathName, title])
-                filesList.push({ text: title, link: pathName })
-            }
+            readFile(path.join(dir, item), sidebarItemList[index].children, item)
+        } else if (path.extname(item) === '.md' && item !== 'index.md') {
+            const fileName = path.basename(filePath, '.md');
+            const filePathWithoutExt = path.join(fpath, fileName);
+            console.log('fileName',fileName ,filePathWithoutExt);
+            const sidebarItem = {
+                text: fileName,
+                link: path.join (rootPath,filePathWithoutExt).replace(/\\/g, '/'),
+            };
+            sidebarItemList.push(sidebarItem);
         }
     })
-    return filesList
+    return sidebarItemList
 }
-const list  = readFile('D:\\git_project1\\vite-p-st\\docs\\articles\\examples',[],'/examples/')
-console.log(JSON.stringify(list))
+const list  = readFile(docsRoot,[],one)
+// console.log(JSON.stringify(list))
+// JSON.stringify() 方法的第一个参数是要格式化的数据，
+// 第二个参数为 null，表示不进行任何替换操作，
+// 第三个参数为 2，表示使用两个空格缩进。
+// 通过将数据对象 data 进行格式化，你将获得更易读的输出结果
+console.log(JSON.stringify(list, null, 2));
