@@ -13,6 +13,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到远程
-git push -f [remoteURL] master:gh-pages
+git push -f [git@github.com:vayocc/vite-p-st.git] master:gh-pages
 
 cd -

@@ -1,3 +1,5 @@
+# 这里无法解析中文或者说带有空格的语法，
+
 name: Deploy
 # 触发条件
 on:  # 每当 push 到 master 分支时触发部署
@@ -60,3 +62,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+
+# touch docs/.vitepress/dist/.nojekyll：这个命令创建了一个名为 .nojekyll 的文件。在 GitHub Pages 中，如果你的网站是一个静态网站，并且使用 Jekyll 作为网站生成器，GitHub Pages 会默认使用 Jekyll 处理你的网站。但是，由于 VitePress 使用了自己的构建系统，不需要 Jekyll 处理，因此需要创建一个 .nojekyll 文件来告诉 GitHub Pages 不要使用 Jekyll 处理这个网站。
