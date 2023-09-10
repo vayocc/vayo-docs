@@ -19,7 +19,7 @@
 
 # *`清除转义字符`*
 
-```java{4}
+```xml
 <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
 <dependency>
     <groupId>org.apache.commons</groupId>
@@ -28,12 +28,7 @@
 </dependency>
 ```
 
-```java{4}
-		/**
-     * 清除转义字符
-     * @param str
-     * @return
-     */
+```java
     public static String cleanBlankUnescapeJava(String str) {
         String s = org.apache.commons.text.StringEscapeUtils.unescapeJava(str);
         return StrUtil.cleanBlank(s);
@@ -43,7 +38,7 @@
 
 # *`截取指定字符串中间部分，不包括标识字符串`*subBetween
 
-```java{4}
+```java
 String coide = "invalid scItemCodes [T000027314, T001007134], traceId=212c8fff16748934599257054e12f1";
 List<String> split = StrUtil.split(StrUtil.subBetween(coide, "[", "]"), ",",true,true); 
 ```
@@ -52,7 +47,7 @@ List<String> split = StrUtil.split(StrUtil.subBetween(coide, "[", "]"), ",",true
 
 方法1
 
-```java{4}
+```java
 /**
  *提取字符串中的数字
 *@paraminput
@@ -71,7 +66,7 @@ if (StrUtil.isBlank(input)) {
 
 方法2. form chatmoss
 
-```java{4}
+```java
 @Test
     public void extractDigits() {
        String  str = "12987xx439---87asd981";
@@ -90,7 +85,7 @@ if (StrUtil.isBlank(input)) {
 
 里面都是hutools的
 
-```jsx{4}
+```java
 public static String extractChinese(String input) {
         return  StrUtil.join("",ReUtil.findAllGroup0(ReUtil.RE_CHINESE, input));
     }
@@ -98,7 +93,7 @@ public static String extractChinese(String input) {
 
 方法2. form bing ai
 
-```java{4}
+```java
 @Test
     public void extractChinese() {
         String str = "Hello, 你好, こんにちは, 안녕하세요, Bonjour, Здравствуйте，123123。asdf";
@@ -115,7 +110,7 @@ public static String extractChinese(String input) {
 
 方法3. form chatmoss 
 
-```java{4}
+```java
 @Test
     public void extractChinese2() {
         String str = "Hello, 你好, こんにちは, 안녕하세요, Bonjour, Здравствуйте，123123。asdf";
@@ -142,7 +137,7 @@ public static String extractChinese(String input) {
 
 1. 利用Java 8中的Stream API和Character.isDigit()方法来判断：
 
-```java{4}
+```java
 String str = "Hello123World";
 boolean containsDigit = str.chars().anyMatch(Character::isDigit);
 
@@ -157,24 +152,27 @@ if (containsDigit) {
 
 hutools的工具
 
-```java{4}
-String price1 = "99.99";
-        String price2 = "99.9";
-        String price3 = "99.99元";
-        String price4 = "99.99.99";
-
-        BigDecimal decimal1 = PriceUtils .parsePrice(price1);
-        BigDecimal decimal2 = PriceUtils .parsePrice(price2);
-        BigDecimal decimal3 = PriceUtils .parsePrice(price3);
-        BigDecimal decimal4 = PriceUtils .parsePrice(price4);
-
-        System.out.println(decimal1); // 输出: 99.99
-        System.out.println(decimal2); // 输出: 99.9
-        System.out.println(decimal3); // 输出: 99.99
-        System.out.println(decimal4); // 输出: 99.99
+```java
+public static void main(String[]args){
+    String price1 = "99.99";
+    String price2 = "99.9";
+    String price3 = "99.99元";
+    String price4 = "99.99.99";
+    BigDecimal decimal1 = PriceUtils .parsePrice(price1);
+    BigDecimal decimal2 = PriceUtils .parsePrice(price2);
+    BigDecimal decimal3 = PriceUtils .parsePrice(price3);
+    BigDecimal decimal4 = PriceUtils .parsePrice(price4);
+    System.out.println(decimal1); // 输出: 99.99
+    System.out.println(decimal2); // 输出: 99.9
+    System.out.println(decimal3); // 输出: 99.99
+    System.out.println(decimal4); // 输出: 99.99        
+}
 ```
 
-```java{4}
+```java
+/**
+ * 123
+ */
 public class PriceUtils {
 
     public static BigDecimal parsePrice(String numberStr) {
