@@ -1,7 +1,7 @@
 const fs = require('fs') // 文件模块
 const path = require('path') // 路径模块
-const one  = 'examples'; // examples
-const rootPath  = 'articles'; // articles
+const one  = 'javaUtil'; // examples 最下级的文件夹名
+const rootPath  = path.join('articles','java'); // articles
 const oneself  = path.join(rootPath ,one);
 
 
@@ -44,10 +44,11 @@ function readFile(dir = docsRoot, sidebarItemList = [], fpath = '') {
         } else if (path.extname(item) === '.md' && item !== 'index.md') {
             const fileName = path.basename(filePath, '.md');
             const filePathWithoutExt = path.join(fpath, fileName);
+            const link =  path.join (rootPath,filePathWithoutExt).replace(/\\/g, '/');
             console.log('fileName',fileName ,filePathWithoutExt);
             const sidebarItem = {
                 text: fileName,
-                link: path.join (rootPath,filePathWithoutExt).replace(/\\/g, '/'),
+                link: `/${link}`,
             };
             sidebarItemList.push(sidebarItem);
         }
