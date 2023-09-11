@@ -7,7 +7,7 @@ const base = '/vite-p-st/';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "VAYO",
-  description: "VAYO",
+  description: "VAYO的个人技术文档，略粗糙，不喜勿喷",
   //开启上次更新时间
   lastUpdated: true,
   // 网页头部信息

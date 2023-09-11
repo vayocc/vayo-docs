@@ -1,6 +1,17 @@
+---
+title: java中用过操作字符串的方法
+author: VAYO
+date: '2023-09-11'
+categories:
+  - string java
+tags:
+  - string
+  - java
+# sidebar: 'auto'
+---
 # string字符串工具类
 
-# `StringUtils.*containsAny`(str,str…)双向奔赴*
+# `StringUtils.*containsAny`(str,str…)双向奔赴了实属是*
 
 **`package** org.apache.commons.lang3;`
 

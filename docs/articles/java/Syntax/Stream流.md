@@ -1,7 +1,7 @@
 ---
 title: java8中Stream流的基本用法
-author: 周一
-date: '2021-07-13'
+author: VAYO
+date: '2023-09-11'
 categories:
   - java8 stream
 tags:
