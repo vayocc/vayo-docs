@@ -1,13 +1,13 @@
 
 import { DefaultTheme } from 'vitepress';
-import {examplesSidebar,javaUtilSidebar} from "./sidebarDetail";
+import {examplesSidebar,javaSidebar} from "./sidebarDetail";
 
 
 export const sidebar: DefaultTheme.Sidebar = {
 
 
     ...examplesSidebar,
-    ...javaUtilSidebar,
+    ...javaSidebar,
     // /articles/Algothm/表示对这个文件夹下的所有md文件做侧边栏配置
     '/articles/Algorithm/': [
         // 第一部分

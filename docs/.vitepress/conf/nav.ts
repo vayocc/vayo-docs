@@ -7,38 +7,13 @@ export const nav: DefaultTheme.NavItem[] = [
         link: '/' // 表示docs/index.md
     },
     {
-        text: 'examples',
-        link : '/articles/examples/'
-    },
-    {
-        text: 'JAVA',
+        text: 'java',
         items: [
             {
-                text: 'javaUtil',
-                link: '/articles/java/javaUtil/'
+                text: 'java',
+                link: '/articles/java/Syntax/Stream流'
             }
-        ]
-    },
-    {
-        text: '个人成长',
-        items: [
-            {
-                text: '大江南北游记',
-                link: '/q' // 表示docs/articles/Travel/index.md
-            },
-            {
-                text: '所思·所想',
-                link: '/articles/Growing/' // 表示docs/articles/Growing/index.md
-            }
-        ]
-    },
-    {
-        text: '前端开发',
-        items: [
-            {
-                text: '数据结构与算法',
-                link: '/articles/Algorithm/' // 对应docs/articles/Algorithm下的index.md文件
-            }
+
         ]
     },
     {
@@ -54,5 +29,9 @@ export const nav: DefaultTheme.NavItem[] = [
                 link: '-'
             }
         ]
-    }
+    },
+    {
+        text: 'examples',
+        link : '/articles/examples/'
+    },
 ];

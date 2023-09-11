@@ -1,6 +1,7 @@
 const fs = require('fs') // 文件模块
-const path = require('path') // 路径模块
-const one  = 'javaUtil'; // examples 最下级的文件夹名
+const path = require('path')
+const util = require("util"); // 路径模块
+const one  = 'Syntax'; // examples 最下级的文件夹名
 const rootPath  = path.join('articles','java'); // articles
 const oneself  = path.join(rootPath ,one);
 
@@ -70,11 +71,19 @@ function writeSidebarConfig(){
     ];
     return sidebarConfig;
 }
+
+/**
+ *
+ * @param key
+ * @param value
+ * @returns {*|string}
+ */
+
 // console.log(JSON.stringify(list))
 // JSON.stringify() 方法的第一个参数是要格式化的数据，
 // 第二个参数为 null，表示不进行任何替换操作，
 // 第三个参数为 2，表示使用两个空格缩进。
 // 通过将数据对象 data 进行格式化，你将获得更易读的输出结果
-console.log(JSON.stringify(sidebarItems, null, 2));
+console.log(util.inspect(sidebarItems, { depth: null, colors: true }));
 console.log('----------');
-console.log(JSON.stringify(writeSidebarConfig(), null, 2));
+console.log(util.inspect(writeSidebarConfig(), { depth: null, colors: true }));
