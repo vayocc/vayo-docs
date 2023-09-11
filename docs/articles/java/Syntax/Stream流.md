@@ -1,8 +1,15 @@
-# Stream流 -java8
+---
+title: java8中Stream流的基本用法
+author: 周一
+date: '2021-07-13'
+categories:
+  - java8 stream
+tags:
+  - stream
+  - java8
+# sidebar: 'auto'
+---
 
-# stream.peak
-
-![Untitled](Stream%E6%B5%81-java8d2beba51c98542599aa364c74553dfc1/Untitled.png)
 
 # groupby
 
@@ -402,3 +409,8 @@ list.stream()
     .noneMatch(otherObj -> ObjUtil.equals(otherObj.getParentCid() ,obj.getCid() )  )) //如果我的id没有匹配到别人的pid，那么我就是最下级的
     .map(VenderShopCategory::getCid).collect(Collectors.toSet())
 ```
+
+# stream.peak
+
+![Untitled](Stream%E6%B5%81-java8d2beba51c98542599aa364c74553dfc1/Untitled.png)
+

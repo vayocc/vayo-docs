@@ -30,7 +30,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: 'Released under the <a href="https://github.com">MIT License</a>.',
-      copyright: 'Copyright © 2019-present <a href="https://github.com">VAYO</a>'
+      copyright: 'Copyright © 2023-present <a href="https://github.com">VAYO</a>'
     },
     docFooter: {
       prev: '上一页',
