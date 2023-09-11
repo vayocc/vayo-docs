@@ -30,7 +30,7 @@ features:
   - title: 全栈程序员
     icon: 🛠️
     details: 6K前后端自动化数据分析 全干程序员 27岁纯牛马
-    link: /articles/views/guide
+    link: /articles/Java/Syntax/Stream流
     # linkText: linkText
   - title: 广告位招租(bushi
     icon: 🛠️
