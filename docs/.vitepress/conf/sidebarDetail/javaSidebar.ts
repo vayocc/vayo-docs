@@ -14,6 +14,15 @@ export const javaSidebar = {
             ]
         },
         {
+            text: "List",
+            items: [
+                {
+                    text: "List操作",
+                    link: "/articles/Java/List/List操作"
+                }
+            ]
+        },
+        {
             text: "JavaUtil",
             items: [
                 {
@@ -21,7 +30,7 @@ export const javaSidebar = {
                     link: "/articles/Java/JavaUtil/string字符串工具类"
                 }
             ]
-        }
+        },
     ],
 
 
