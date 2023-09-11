@@ -3,22 +3,22 @@
  */
 export const javaSidebar = {
 
-    '/articles/java/': [
+    '/articles/Java/': [
         {
             text: "Syntax",
             items: [
                 {
                     text: "Stream流",
-                    link: "/articles/java/Syntax/Stream流"
+                    link: "/articles/Java/Syntax/Stream流"
                 }
             ]
         },
         {
-            text: "javaUtil",
+            text: "JavaUtil",
             items: [
                 {
                     text: "String字符串工具类",
-                    link: "/articles/java/javaUtil/string字符串工具类"
+                    link: "/articles/Java/JavaUtil/string字符串工具类"
                 }
             ]
         }

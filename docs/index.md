@@ -20,10 +20,10 @@ hero:
   actions:
     - theme: brand
       text: 上上下下 左右左右 BABA
-      link: /markdown-examples
+      link: /articles/Java/Syntax/Stream流
     - theme: alt
       text: 你有30条命?
-      link: /api-examples
+      link: /articles/Java/Syntax/Stream流
  
 
 features:

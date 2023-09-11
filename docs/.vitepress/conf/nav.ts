@@ -3,15 +3,15 @@ import { DefaultTheme } from 'vitepress';
 export const nav: DefaultTheme.NavItem[] = [
     // examples { text: 'Home', link: '/' },{ text: 'Examples', link: '/markdown-examples' },
     {
-        text: 'Home',
+        text: 'HOME',
         link: '/' // 表示docs/index.md
     },
     {
-        text: 'java',
+        text: 'Java',
         items: [
             {
-                text: 'java',
-                link: '/articles/java/Syntax/Stream流'
+                text: 'Java',
+                link: '/articles/Java/Syntax/Stream流'
             }
 
         ]

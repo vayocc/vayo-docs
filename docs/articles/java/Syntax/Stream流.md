@@ -196,7 +196,7 @@ public class User implements Serializable {
 
 # 先计算后分组并排序
 
-```jsx
+```java
 // 计算两个字段的相加值，并按值进行分组，并根据相加的值进行排序
         List<Map.Entry<Integer, List<Bean>>> sortedEntries = beanList.stream()
                 .collect(Collectors.groupingBy(bean -> bean.getField1() + bean.getField2()))
@@ -206,7 +206,7 @@ public class User implements Serializable {
                 .collect(Collectors.toList());
 ```
 
-```jsx
+```java
 // 计算两个字段的相加值，并按值进行分组
         Map<Integer, List<Bean>> groupedMap = beanList.stream()
                 .collect(Collectors.groupingBy(bean -> bean.getField1() + bean.getField2()));
@@ -219,7 +219,7 @@ public class User implements Serializable {
 
 倒序
 
-```jsx
+```java
 
         // 计算两个字段的相加值，并按值进行分组，并根据相加的值进行排序
   List<Map.Entry<Double, List<VenderShopCategory>>> sortedEntries  = shopCategoriesOfData.stream().collect(Collectors.groupingBy(e ->
@@ -332,7 +332,7 @@ BigDecimal sum = midList.stream().map(ProductUserMid::getMoney)
 
 *//取出list 里面的ID变成Idlist*
 
-```jsx
+```java
 List<Long> userIds = List.stream().map(UserVo::getId).collect(Collectors.toList());;*//新的*
 ```
 

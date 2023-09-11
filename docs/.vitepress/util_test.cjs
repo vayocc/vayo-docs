@@ -2,7 +2,7 @@ const util = require('util');
 
 const json = {
 
-    '/articles/java/Syntax/': [
+    '/articles/Java/Syntax/': [
         {
             "text": "Syntax",
             "items": [
@@ -17,7 +17,7 @@ const json = {
             "items": [
                 {
                     "text": "String字符串工具类",
-                    "link": "/articles/java/javaUtil/string字符串工具类"
+                    "link": "/articles/Java/JavaUtil/string字符串工具类"
                 }
             ]
         }
