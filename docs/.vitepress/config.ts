@@ -24,7 +24,7 @@ export default defineConfig({
 
     sidebar: sidebar,
     outline: {
-      level: [2, 6],
+      level: [1, 6],
       label: '目录'
     },
     // 页脚

@@ -11,6 +11,15 @@ export const nav: DefaultTheme.NavItem[] = [
         link : '/articles/examples/'
     },
     {
+        text: 'JAVA',
+        items: [
+            {
+                text: 'javaUtil',
+                link: '/articles/java/javaUtil/'
+            }
+        ]
+    },
+    {
         text: '个人成长',
         items: [
             {

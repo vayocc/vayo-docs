@@ -1,16 +1,22 @@
 const fs = require('fs');
-const path = require('path');
-const  rootPath  = '/articles/examples/';
+const path
+    = require('path');
+const one  = 'examples';
+const rootPath  = '/articles/';
+const oneself  = rootPath + one;
+
 function generateSidebarConfig(rootDir, sidebarConfig, baseDir = '') {
     const files = fs.readdirSync(rootDir);
+    console.log(files);
 
     const sidebarItems = [];
 
     files.forEach((file) => {
         const filePath = path.join(rootDir, file);
         const stat = fs.statSync(filePath);
-
+        // console.log(stat);
         if (stat.isDirectory()) {
+
             const subdirConfig = {};
             const subdirBaseDir = path.join(baseDir, file);
             generateSidebarConfig(filePath, subdirConfig, subdirBaseDir);
@@ -28,7 +34,7 @@ function generateSidebarConfig(rootDir, sidebarConfig, baseDir = '') {
             const filePathWithoutExt = path.join(baseDir, fileName);
             const sidebarItem = {
                 text: fileName,
-                link: `${rootPath}${filePathWithoutExt}`,
+                link: `${oneself}${filePathWithoutExt}`,
             };
             sidebarItems.push(sidebarItem);
         }
@@ -36,7 +42,7 @@ function generateSidebarConfig(rootDir, sidebarConfig, baseDir = '') {
 
 
     if (sidebarItems.length > 0) {
-        sidebarConfig[rootPath] = [
+        sidebarConfig[oneself] = [
             {
                 text: 'Examples',
                 items:  sidebarItems,
@@ -45,9 +51,9 @@ function generateSidebarConfig(rootDir, sidebarConfig, baseDir = '') {
     }
 }
 
-const rootDir = path.join(__dirname, '..'+rootPath);
+const rootDir = path.join(__dirname, '..'+oneself);
 const sidebarConfig = {};
 
 generateSidebarConfig(rootDir, sidebarConfig);
 
-console.log(JSON.stringify(sidebarConfig, null, 2));
+//// console.log(JSON.stringify(sidebarConfig, null, 2));
