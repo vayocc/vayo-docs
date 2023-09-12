@@ -9,7 +9,7 @@ export const springSidebar = {
                 text: 'SpringFramework',
                 items: [
                     {
-                        text: 'ResponseBodyAdvice初体验',
+                        text: 'ResponseBodyAdvice',
                         link: '/articles/Spring/SpringFramework/ResponseBodyAdvice初体验'
                     }
                 ]

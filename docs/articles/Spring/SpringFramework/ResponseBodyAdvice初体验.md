@@ -18,7 +18,7 @@ outline: {
 
 因为有一个外部api调用本地程序的情况，需要记录每次调用的具体细节到日志里面，所以我写了个AOP实现该需求，但是同事在知道我写过这个AOP的情况下又写了个`ResponseBodyAdvice`， 因为之前没有了解过`ResponseBodyAdvice` ，所以搜索了一下
 
-具体代码补贴了，花了两个小时时间测试了一下，和我写的AOP不兼容，而且他在`beforeBodyWrite`里他做了鉴权，这里明显是不合理的。
+花了两个小时时间测试了一下，和我写的AOP不兼容，而且他在`beforeBodyWrite`里他做了鉴权，这里明显是不合理的。
 
 ## ResponseBodyAdvice里面有supports，beforeBodyWrite，aop里面是 @Around 请问这个情况下的执行顺序是？
 
