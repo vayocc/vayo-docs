@@ -17,6 +17,16 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
+        text: 'Spring',
+        items: [
+            {
+                text: 'SpringFramework',
+                link: '/articles/Spring/SpringFramework/ResponseBodyAdvice初体验'
+            }
+
+        ]
+    },
+    {
         text: '关于我',
         items: [
             { text: 'Github', link: '-' },

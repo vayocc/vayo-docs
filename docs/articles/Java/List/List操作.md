@@ -155,15 +155,15 @@ public static <T> List<List<T>> averageAssign(List<T> source, int n) {
 ::: details 原commons-collections4方法
 
 
-```java
+```xml
 <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <version>4.4</version>
-        </dependency>
+   <groupId>org.apache.commons</groupId>
+   <artifactId>commons-collections4</artifactId>
+   <version>4.4</version>
+</dependency>
 ```
 
-**`import** org.apache.commons.collections4.CollectionUtils;`
+`import** org.apache.commons.collections4.CollectionUtils;`
 
 差集
 

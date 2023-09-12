@@ -1,8 +1,9 @@
 const fs = require('fs') // 文件模块
 const path = require('path')
 const util = require("util"); // 路径模块
-const one  = 'Syntax'; // examples 最下级的文件夹名
-const rootPath  = path.join('articles','java'); // articles
+
+const one  = 'SpringFramework'; // examples 最下级的文件夹名
+const rootPath  = path.join('articles','Spring'); // articles
 const oneself  = path.join(rootPath ,one);
 
 
