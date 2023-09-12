@@ -21,7 +21,7 @@ export const nav: DefaultTheme.NavItem[] = [
         items: [
             {
                 text: 'SpringFramework',
-                link: '/articles/Spring/SpringFramework/ResponseBodyAdvice初体验'
+                link: '/articles/Spring/SpringFramework/ResponseBodyAdvice'
             }
 
         ]
