@@ -19,8 +19,8 @@ outline: {
 因为有一个外部api调用本地程序的情况，需要记录每次调用的具体细节到日志里面，所以我写了个AOP实现该需求，但是同事在知道我写过这个AOP的情况下又写了个`ResponseBodyAdvice`， 因为之前没有了解过`ResponseBodyAdvice` ，所以搜索了一下
 
 花了两个小时时间测试了一下，和我写的AOP不兼容，而且他在`beforeBodyWrite`里他做了鉴权，这里明显是不合理的。
-
-## ResponseBodyAdvice里面有supports，beforeBodyWrite，aop里面是 @Around 这个情况下的执行顺序是？
+## beforeBodyWrite和AOP@Around 执行顺序
+ResponseBodyAdvice里面有supports，beforeBodyWrite，aop里面是 @Around 这个情况下的执行顺序是？
 
 在Spring Boot中，当一个请求到达一个带有AOP和ResponseBodyAdvice的方法时，执行顺序如下：
 
@@ -31,7 +31,8 @@ outline: {
 
 总结起来，执行顺序是`AOP(@Around)` -> `方法执行` ->` AOP(@Around) ` ->  `ResponseBodyAdvice supports` -> `ResponseBodyAdvice beforeBodyWrite`。
 
-## 实现ResponseBodyAdvice的方法加@ControllerAdvice("com.xxx.xxx")是什么意思
+## @ControllerAdvice("..")意思
+实现ResponseBodyAdvice的方法加@ControllerAdvice("com.xxx.xxx")是什么意思
 
 在Spring Boot中，通过使用`@ControllerAdvice`注解并指定目标包路径，可以创建一个全局的控制器增强器`（Controller Advice）`。这个控制器增强器将应用于指定包路径下的所有控制器（Controller）。
 
@@ -53,7 +54,7 @@ outline: {
 
 无论使用`@ControllerAdvice`还是`@RestControllerAdvice`，您都可以在增强器中实现各种方法，如处理全局异常、添加全局数据绑定、应用全局拦截器等。这些增强器可以对指定范围内的控制器进行统一的处理和修改。
 
-## ResponseBodyAdvice 和HandlerInterceptor区别
+## ResponseBodyAdvice和HandlerInterceptor区别
 
 `ResponseBodyAdvice` 和 `HandlerInterceptor` 是 Spring MVC 中用于处理请求和响应的两个不同的接口，它们的作用和使用方式有所不同。
 
@@ -67,7 +68,7 @@ outline: {
 
 两者的使用场景和目的不同，`ResponseBodyAdvice` 更关注对响应体的处理，而 `HandlerInterceptor` 更关注对请求处理过程的拦截和处理。通常情况下，你可以根据具体的需求选择使用其中的一个或两者结合来完成相应的功能。
 
-## 有HandlerInterceptor 又有ResponseBodyAdvice 还有aop@Around 执行顺序
+## HandlerInterceptor、ResponseBodyAdvice、AOP@Around执行顺序
 当一个方法同时存在 `HandlerInterceptor`、`ResponseBodyAdvice` 和 `@Around` 注解时，它们的执行顺序如下：
 
 1. 拦截器的 `preHandle` 方法：在方法执行前执行拦截器的 `preHandle` 方法。
