@@ -17,9 +17,13 @@ export const javaSidebar = {
             text: "List",
             items: [
                 {
-                    text: "List操作",
+                    text: "List排序/差并集/分区",
                     link: "/articles/Java/List/List操作"
-                }
+                },
+                {
+                    text: "List拷贝",
+                    link: "/articles/Java/List/ListCopy"
+                },
             ]
         },
         {
@@ -28,7 +32,15 @@ export const javaSidebar = {
                 {
                     text: "String字符串工具类",
                     link: "/articles/Java/JavaUtil/string字符串工具类"
-                }
+                },
+                {
+                    text: "网络图片转file对象工具",
+                    link: "/articles/Java/JavaUtil/网络图片转file对象工具"
+                },
+                {
+                    text: "html转图片",
+                    link: "/articles/Java/JavaUtil/html转图片"
+                },
             ]
         },
     ],
