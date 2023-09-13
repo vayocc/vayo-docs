@@ -27,6 +27,16 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
+        text: '工具',
+        items: [
+            {
+                text: 'Tools',
+                link: '/articles/Tools/IDEA/IntelliJIDEA快捷键大全动图演示.md'
+            }
+
+        ]
+    },
+    {
         text: '关于我',
         items: [
             { text: 'Github', link: '-' },
