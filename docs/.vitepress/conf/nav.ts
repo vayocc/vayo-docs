@@ -29,10 +29,15 @@ export const nav: DefaultTheme.NavItem[] = [
     {
         text: '工具',
         items: [
+
+            {
+                text: '构建工具',
+                link: '/articles/Tools/mvnrepository/Gradle及IDEA设置'
+            },
             {
                 text: 'Tools',
-                link: '/articles/Tools/IDEA/IntelliJIDEA快捷键大全动图演示.md'
-            }
+                link: '/articles/Tools/IDEA/IntelliJIDEA快捷键大全动图演示'
+            },
 
         ]
     },

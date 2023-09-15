@@ -10,11 +10,23 @@ export const toolsSidebar = {
                 items: [
                     {
                         text: 'IDEA快捷键大全动图',
-                        link: '/articles/Tools/IDEA/IntelliJIDEA快捷键大全动图演示.md'
+                        link: '/articles/Tools/IDEA/IntelliJIDEA快捷键大全动图演示'
                     }
                 ]
             }
-        ]
+        ],
+        '/articles/Tools/mvnrepository/': [
+            {
+                text: '构建工具',
+                items: [
+                    {
+                        text: 'Gradle及IDEA设置',
+                        link: '/articles/Tools/mvnrepository/Gradle及IDEA设置'
+                    }
+                ]
+            }
+        ],
+
 
 
     }
