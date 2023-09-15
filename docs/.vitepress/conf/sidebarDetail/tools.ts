@@ -22,6 +22,10 @@ export const toolsSidebar = {
                     {
                         text: 'Gradle及IDEA设置',
                         link: '/articles/Tools/mvnrepository/Gradle及IDEA设置'
+                    },
+                    {
+                        text: 'Gradle命令.md',
+                        link: '/articles/Tools/mvnrepository/Gradle命令.md'
                     }
                 ]
             }
