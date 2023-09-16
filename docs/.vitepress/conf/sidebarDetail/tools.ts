@@ -20,17 +20,27 @@ export const toolsSidebar = {
                 text: '构建工具',
                 items: [
                     {
-                        text: 'Gradle及IDEA设置',
-                        link: '/articles/Tools/mvnrepository/Gradle及IDEA设置'
+                        text: 'Maven',
+                        items: [
+
+                        ]
                     },
                     {
-                        text: 'Gradle命令.md',
-                        link: '/articles/Tools/mvnrepository/Gradle命令.md'
-                    }
+                        text: 'Gradle',
+                        items: [
+                            {
+                                text: 'Gradle及IDEA设置',
+                                link: '/articles/Tools/mvnrepository/Gradle及IDEA设置'
+                            },
+                            {
+                                text: 'Gradle命令.md',
+                                link: '/articles/Tools/mvnrepository/Gradle命令.md'
+                            }
+                        ]
+                    },
                 ]
             }
         ],
-
 
 
     }

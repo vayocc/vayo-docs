@@ -41,7 +41,7 @@ F:\gradle-8.3
 
 
 
-``` gradle
+``` txt
 allprojects {
     repositories {
         mavenLocal()
