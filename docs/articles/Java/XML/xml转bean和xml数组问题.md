@@ -1,4 +1,6 @@
 # 问题背景：xml数组识别不到问题
+开发奇门的时候奇门的传参都是XML，所以需要用XML转为BEAN好让程序好操作
+
 尝试了好几种办法，转json 转map 转document 最后转为bean都对数组不行
 
 ![问题1.jpg](xml转bean和xml数组问题/问题1.jpg)
