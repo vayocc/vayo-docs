@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav } from './conf/nav.js';
 import { sidebar } from './conf/sidebar.js';
 
-const base = '/vite-p-st/';
+const base = '/vayo-docs/';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

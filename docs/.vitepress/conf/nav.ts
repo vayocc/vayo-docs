@@ -44,15 +44,12 @@ export const nav: DefaultTheme.NavItem[] = [
     {
         text: '关于我',
         items: [
-            { text: 'Github', link: '-' },
+            { text: 'Notion', link: 'https://vayocc.notion.site/VAYO-openDev-d6dab56f3f214702849e103c6ab50d68?pvs=4' },
             {
                 text: '掘金',
-                link: '-'
+                link: 'https://juejin.cn/user/409441865308216/posts'
             },
-            {
-                text: '飞书社区',
-                link: '-'
-            }
+
         ]
     },
     {
