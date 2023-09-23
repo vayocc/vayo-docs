@@ -23,9 +23,14 @@ export const toolsSidebar = {
                         text: 'Maven',
                         items: [
                             {
+                                text: 'win10安装maven',
+                                link: '/articles/Tools/mvnrepository/maven/WIN10环境Maven的安装与配置并修改.m2下setting配置文件'
+                            },
+                            {
                                 text: 'maven项目引入本地jar包并设置一并打入',
                                 link: '/articles/Tools/mvnrepository/maven/SpringBoot引入本地jar包maven一并打包'
                             },
+
                         ]
                     },
                     {
