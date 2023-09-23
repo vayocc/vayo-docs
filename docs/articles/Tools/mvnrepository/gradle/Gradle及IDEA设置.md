@@ -36,7 +36,7 @@ F:\gradle-8.3
 
 ## 三. 配置镜像仓库
 
-### 1. 打开 \gradle-7.4.2\init.d\ 下的 init.gradle(没有就新建一个文件,建议notepad--打开) 
+### 1. 打开 \gradle-8.3\init.d\ 下的 init.gradle(没有就新建一个文件,建议notepad--打开) 
 **[建议使用 notepad--打开  gitee开源](https://gitee.com/cxasm/notepad--/releases)** 
 
 

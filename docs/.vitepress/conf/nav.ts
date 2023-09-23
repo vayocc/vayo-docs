@@ -32,7 +32,7 @@ export const nav: DefaultTheme.NavItem[] = [
 
             {
                 text: '构建工具',
-                link: '/articles/Tools/mvnrepository/Gradle及IDEA设置'
+                link: '/articles/Tools/mvnrepository/gradle/Gradle及IDEA设置'
             },
             {
                 text: 'Tools',
