@@ -27,8 +27,12 @@ export const toolsSidebar = {
                                 link: '/articles/Tools/mvnrepository/maven/WIN10环境Maven的安装与配置并修改.m2下setting配置文件'
                             },
                             {
-                                text: 'maven项目引入本地jar包并设置一并打入',
+                                text: '引入本地jar包并设置一并打入',
                                 link: '/articles/Tools/mvnrepository/maven/SpringBoot引入本地jar包maven一并打包'
+                            },
+                            {
+                                text: '本地jar包引用问题',
+                                link: '/articles/Tools/mvnrepository/maven/本地jar包引用问题'
                             },
 
                         ]
