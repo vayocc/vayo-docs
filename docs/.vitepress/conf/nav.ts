@@ -35,6 +35,10 @@ export const nav: DefaultTheme.NavItem[] = [
                 link: '/articles/Tools/mvnrepository/gradle/Gradle及IDEA设置'
             },
             {
+                text: '版本工具',
+                link: '/articles/Tools/git/gitignore忽略文件版本追踪'
+            },
+            {
                 text: 'Tools',
                 link: '/articles/Tools/IDEA/IntelliJIDEA快捷键大全动图演示'
             },

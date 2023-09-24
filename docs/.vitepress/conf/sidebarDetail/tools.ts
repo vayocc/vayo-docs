@@ -55,6 +55,25 @@ export const toolsSidebar = {
         ],
 
 
+    '/articles/Tools/git/': [
+        {
+            text: '版本工具',
+            items: [
+                {
+                    text: 'git',
+                    items: [
+                        {
+                            text: 'gitignore忽略文件版本追踪',
+                            link: '/articles/Tools/git/gitignore忽略文件版本追踪'
+                        },
+                    ]
+                },
+
+            ]
+        }
+    ],
+
+
 
     }
 
