@@ -36,7 +36,7 @@ export const nav: DefaultTheme.NavItem[] = [
             },
             {
                 text: '版本工具',
-                link: '/articles/Tools/git/gitignore忽略文件版本追踪'
+                link: '/articles/Tools/git/git命令'
             },
             {
                 text: 'Tools',

@@ -63,6 +63,14 @@ export const toolsSidebar = {
                     text: 'git',
                     items: [
                         {
+                            text: 'git命令',
+                            link: '/articles/Tools/git/git命令'
+                        },
+                        {
+                            text: '本地代码上传到新的git仓库',
+                            link: '/articles/Tools/git/本地代码上传到新的git仓库'
+                        },
+                        {
                             text: 'gitignore忽略文件版本追踪',
                             link: '/articles/Tools/git/gitignore忽略文件版本追踪'
                         },
