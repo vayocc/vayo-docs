@@ -34,6 +34,10 @@ export const javaSidebar = {
                         link: "/articles/Java/JavaUtil/string字符串工具类"
                     },
                     {
+                        text: "实体类Field操作",
+                        link: "/articles/Java/JavaUtil/实体类Field操作"
+                    },
+                    {
                         text: "网络图片转file对象工具",
                         link: "/articles/Java/JavaUtil/网络图片转file对象工具"
                     },

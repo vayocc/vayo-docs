@@ -65,14 +65,14 @@ git push gitee 2f0897ac2565c1bcce8eb6e0d34b85226c6929db:master
 
 # 配置本地git的name和邮箱
 
-``` git
+``` bash
 git config --global user.name "VAYO"
 git config --global user.email "yaogogo@88.com"
 ```
 
 # 配置本地仓库分支默认推送的远程地址
 
-```git
+``` bash
 git config branch.main.remote github
 ```
 

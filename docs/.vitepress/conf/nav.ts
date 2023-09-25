@@ -4,7 +4,7 @@ export const nav: DefaultTheme.NavItem[] = [
     // examples { text: 'Home', link: '/' },{ text: 'Examples', link: '/markdown-examples' },
     {
         text: 'HOME',
-        link: '/' // 表示docs/index.md
+        link: '/' // 表示docs/SpringBoot-Actuator.md
     },
     {
         text: 'Java',
@@ -19,6 +19,10 @@ export const nav: DefaultTheme.NavItem[] = [
     {
         text: 'Spring',
         items: [
+            {
+                text: 'SpringBoot',
+                link: '/articles/Spring/SpringBoot/SpringBoot-Actuator'
+            },
             {
                 text: 'SpringFramework',
                 link: '/articles/Spring/SpringFramework/ResponseBodyAdvice'

@@ -9,7 +9,7 @@
 
 ## 2.2然后输入这三个命令 init add. commit
 
-```git
+```bash
 git init
 git add .
 git commit -m "first"

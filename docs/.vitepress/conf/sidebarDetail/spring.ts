@@ -4,7 +4,33 @@
 export const springSidebar = {
 
 
-        '/articles/Spring/SpringFramework/': [
+        '/articles/Spring/': [
+
+
+            {
+                text: 'SpringBoot',
+                items: [
+                    {
+                        text: 'SpringBoot-Actuator',
+                        link: '/articles/Spring/SpringBoot/SpringBoot-Actuator'
+                    },
+                    {
+                        text: 'RequiredArgsConstructor',
+                        link: '/articles/Spring/SpringBoot/RequiredArgsConstructor'
+                    },
+                    {
+                        text: 'JsonSerialize序列化返回给前台',
+                        link: '/articles/Spring/SpringBoot/JsonSerialize序列化返回给前台'
+                    },
+                    {
+                        text: '缓存@Cacheable',
+                        link: '/articles/Spring/SpringBoot/缓存@Cacheable'
+                    },
+                ]
+            },
+
+
+
             {
                 text: 'SpringFramework',
                 items: [
@@ -13,7 +39,8 @@ export const springSidebar = {
                         link: '/articles/Spring/SpringFramework/ResponseBodyAdvice'
                     }
                 ]
-            }
+            },
+
         ]
 
 
