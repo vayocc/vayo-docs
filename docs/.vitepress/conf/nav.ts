@@ -37,7 +37,7 @@ export const nav: DefaultTheme.NavItem[] = [
                 text: 'ORM框架',
                 items:[
                     {
-                        text: 'MyBatis-Plus',
+                        text: 'MyBatis/Plus',
                         link: '/articles/orm/mybatisplus/全表限制更新删除'
                     }
                 ]
