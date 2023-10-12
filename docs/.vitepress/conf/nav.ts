@@ -31,6 +31,22 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
+        text: '框架|中间件',
+        items: [
+            {
+                text: 'ORM框架',
+                items:[
+                    {
+                        text: 'MyBatis-Plus',
+                        link: '/articles/orm/mybatisplus/全表限制更新删除'
+                    }
+                ]
+            },
+
+
+        ]
+    },
+    {
         text: '工具',
         items: [
 

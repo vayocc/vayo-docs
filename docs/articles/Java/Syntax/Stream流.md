@@ -270,10 +270,10 @@ BigDecimal sum = midList.stream().map(ProductUserMid::getMoney)
 
 # map
 
-*//取出list 里面的ID变成Idlist*
+*//取出list里面的ID变成List<Id>*
 
 ```java
-List<Long> userIds = List.stream().map(UserVo::getId).collect(Collectors.toList());;*//新的*
+List<Long> userIds = List.stream().map(UserVo::getId).collect(Collectors.toList());
 ```
 
 *//* key 重复
