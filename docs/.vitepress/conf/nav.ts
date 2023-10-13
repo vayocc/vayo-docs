@@ -31,6 +31,28 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
+        text: '数据库',
+        items: [
+            {
+                text: 'Sql数据库',
+                items:[
+
+                ]
+            },
+            {
+                text: 'NoSql数据库',
+                items:[
+                    {
+                        text: 'Redis',
+                        link: '/articles/sql/nosql/redis/Redis6学习笔记-尚硅谷'
+                    }
+                ]
+            },
+
+
+        ]
+    },
+    {
         text: '框架|中间件',
         items: [
             {
