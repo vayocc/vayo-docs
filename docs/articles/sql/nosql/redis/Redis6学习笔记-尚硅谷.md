@@ -6,25 +6,25 @@
 
 [01-课程介绍_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Rv41177Af?p=1&vd_source=820e1d31b3317087dfbc6234c508fe5e)
 
-![df45ad71d23d4a317d32d03a3b3109b.png](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/df45ad71d23d4a317d32d03a3b3109b.png)
+![df45ad71d23d4a317d32d03a3b3109b.png](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/df45ad71d23d4a317d32d03a3b3109b.png)
 
-![407f6c046895d2a6d883ff27a61439a.png](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/407f6c046895d2a6d883ff27a61439a.png)
+![407f6c046895d2a6d883ff27a61439a.png](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/407f6c046895d2a6d883ff27a61439a.png)
 
-![656dd9aa96c97ea5b494a04bcfc1728.png](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/656dd9aa96c97ea5b494a04bcfc1728.png)
+![656dd9aa96c97ea5b494a04bcfc1728.png](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/656dd9aa96c97ea5b494a04bcfc1728.png)
 
-![3e02fa803fa0c7f6b14d829538cf4ae.png](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/3e02fa803fa0c7f6b14d829538cf4ae.png)
+![3e02fa803fa0c7f6b14d829538cf4ae.png](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/3e02fa803fa0c7f6b14d829538cf4ae.png)
 
 ## nosql的适用与不适用
 
-![4a5957bc85b495457ac83091d3ba4b7.png](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/4a5957bc85b495457ac83091d3ba4b7.png)
+![4a5957bc85b495457ac83091d3ba4b7.png](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/4a5957bc85b495457ac83091d3ba4b7.png)
 
-![Untitled](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled.png)
+![Untitled](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled.png)
 
-![0678d25f75c42f293d135d4ee3fdd46.png](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/0678d25f75c42f293d135d4ee3fdd46.png)
+![0678d25f75c42f293d135d4ee3fdd46.png](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/0678d25f75c42f293d135d4ee3fdd46.png)
 
 ## 多样的数据结构存储持久化数据
 
-![a28e0a288cf304d8347f9e4e3daa3c4.png](https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/a28e0a288cf304d8347f9e4e3daa3c4.png)
+![a28e0a288cf304d8347f9e4e3daa3c4.png](Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/a28e0a288cf304d8347f9e4e3daa3c4.png)
 
 # 1 Redis基础介绍
 
@@ -43,9 +43,9 @@ redis启动
     
     ### redis相关知识+解释单线程+多路io复用
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_1.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_1.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_2.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_2.png)
     
     ### key的相关操作
     
@@ -120,7 +120,7 @@ redis启动
     
     ### 2.1.2 redis 是原子性的java不是
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_3.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_3.png)
     
     ### 2.1.3 数据结构
     
@@ -138,7 +138,7 @@ redis启动
     
     ## 2.2 列表（List)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_4.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_4.png)
     
     ### 2.2.1 相关命令
     
@@ -160,11 +160,11 @@ redis启动
             - 由表头和N个entry节点和压缩列表尾部标识符zlend组成的一个连续的内存块。然后通过一系列的编码规则，提高内存的利用率，主要用于存储整数和比较短的字符串。可以看出在插入和删除元素的时候，都需要对内存进行一次扩展或缩减，还要进行部分数据的移动操作，这样会造成更新效率低下的情况
         - 数据量较多时改为quicklist，多个ziplist使用双向指针穿起来
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_5.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_5.png)
     
     ## 2.3 hash
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_6.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_6.png)
     
     ### 2.3.1 常用命令
     
@@ -188,11 +188,11 @@ redis启动
         - 键的个数小于512，值的大小不超过64字节
     - 数据较多: hashtable
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_7.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_7.png)
     
     ## 2.4 set
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_8.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_8.png)
     
     ### 2.4.1 常用命令
     
@@ -212,11 +212,11 @@ redis启动
     - intset：集合中都是整数，且数据量不超过512个，使用intset(有序且不重复的连续空间)
     - String类型的set集合，底层是value为null的hash表，dict的结构
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_9.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_9.png)
     
     ## 2.5 zset ( sort-set )
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_10.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_10.png)
     
     ### 2.5.1常用命令
     
@@ -245,25 +245,25 @@ redis启动
         - hash表关联value和score
         - 跳跃表用于给value排序，根据score的范围获取元素列表
             
-            ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_11.png)
+            ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_11.png)
             
         
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_12.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_12.png)
     
 
 ### 2.5.3 跳跃表
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_13.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_13.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_14.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_14.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_15.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_15.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_16.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_16.png)
 
 ## 2.6 bitmaps (新)
     
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_17.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_17.png)
 
 ### 2.6.1 命令
 
@@ -282,7 +282,7 @@ redis启动
 | bitop and (or/not/xor ) `<destkey>` [key…]                                              | bitop and unique:users:and:20201104_03             |                                   |
 | unique:users:20201103unique:users:20201104                                            | bitop是一个复合操作 and交集 or并集 not非   xor异或 将结果保留到destkey |                                   |
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_18.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_18.png)
 
 ### 2.6.2 bitmaps和set对比
 
@@ -291,11 +291,11 @@ redis启动
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_19.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_19.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_20.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_20.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_21.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_21.png)
 
 ## 2.7 hyperLongLong (新)
 
@@ -304,9 +304,9 @@ redis启动
     
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_22.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_22.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_23.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_23.png)
 
 ### 2.7.1 相关命令
 
@@ -323,7 +323,7 @@ redis启动
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_24.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_24.png)
 
 | 常用命令                                                                                 |                                    | 作用                                                          |
 |--------------------------------------------------------------------------------------|------------------------------------|-------------------------------------------------------------|
@@ -386,17 +386,17 @@ public class JedisTest {
 
 - 3.2.1 生成6位随机数
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_25.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_25.png)
     
 - 3.2.2 每个手机每天只能发3次 验证码2分钟有效
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_26.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_26.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_27.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_27.png)
     
 - 校验验证码
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_28.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_28.png)
     
 
 ## 3.3 SprinBoot Redis
@@ -417,21 +417,21 @@ public class JedisTest {
     
     - 在application.yml中配置Redis信息
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_29.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_29.png)
     
 - 配置类
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_30.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_30.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_31.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_31.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_32.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_32.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_33.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_33.png)
     
 - controller调用
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_34.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_34.png)
     
     为了节省内存，也可以使用StringRedisTemplate对象，只能存放String类型的键和值，StringRedisTemplate的key和value默认使用StringRedisSerializer序列化器，当我们需要存放对象时，自己手动进行序列化，取出对象时，手动进行反序列化。
     
@@ -471,13 +471,13 @@ public class JedisTest {
 
 ## 4.1 了解redis事务
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_35.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_35.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_36.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_36.png)
 
 ## 4.2 事务操作流程multi exec discard
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_37.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_37.png)
 
 - multi 组队阶段 (开启事务)
     - 添加命令1
@@ -489,11 +489,11 @@ public class JedisTest {
 
 - 当添加命令阶段出现错误，当前命令队列将会被清空，无法执行
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_38.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_38.png)
     
 - 当执行命令阶段出现错误，发生错误的命令不会成功执行，队列中其它命令均可以正常执行
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_39.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_39.png)
     
 
 ## 4.4  事务冲突
@@ -510,7 +510,7 @@ public class JedisTest {
     
     
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_40.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_40.png)
     
     还有unwatch
     
@@ -525,21 +525,21 @@ public class JedisTest {
 
 ### 4.6.1 编写实现代码
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_41.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_41.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_42.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_42.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_43.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_43.png)
 
 ### 4.6.2 模拟ab工具模拟高并发秒杀出现库存\连接超时问题
 
 - 问题1。库存问题
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_44.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_44.png)
 
 - 问题2。连接超时问题
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_45.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_45.png)
 
 ### 4.6.3 问题解决（连接池和事务）
 
@@ -550,46 +550,46 @@ public class JedisTest {
     
     
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_46.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_46.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_47.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_47.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_48.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_48.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_49.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_49.png)
     
 - 超卖问题 （没加事务，乐观锁）
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_50.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_50.png)
     
     乐观锁
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_51.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_51.png)
     
     加redis事务
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_52.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_52.png)
     
 
 ### 4.6.4 因为乐观锁造成的新问题（lua脚本）
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_53.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_53.png)
     
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_54.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_54.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_55.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_55.png)
 
 lua脚本
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_56.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_56.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_57.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_57.png)
 
 java使用
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_58.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_58.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_59.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_59.png)
 
 ## 5 Redis持久化
 
@@ -599,31 +599,31 @@ java使用
 
 ### 5.1.1 了解rdb
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_60.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_60.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_61.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_61.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_62.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_62.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_63.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_63.png)
 
 ### 5.1.2 配置  以及 dump.rdb
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_64.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_64.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_65.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_65.png)
 
 ### stop-writes-on-bgsave-error
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_66.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_66.png)
 
 ### rdbcompression 压缩文件
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_67.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_67.png)
 
 ### rdbchecksum 检查完整性
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_68.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_68.png)
 
 ### 触发机制 3种
 
@@ -666,15 +666,15 @@ java使用
 
 ### save
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_69.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_69.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_70.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_70.png)
 
 ### 命令 save VS bgsave
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_71.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_71.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_72.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_72.png)
 
 ### 5.1.3 优势 和 缺点
 
@@ -687,9 +687,9 @@ java使用
 
 **缺点**
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_73.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_73.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_74.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_74.png)
 
 ### 5.1.4 RDB备份还原
 
@@ -697,11 +697,11 @@ java使用
 💡 根据配置文件里面的备份 文件自动还原备份
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_75.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_75.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_76.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_76.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_77.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_77.png)
 
 [redis的持久化：RDB的配置 - 天宇轩-王 - 博客园](https://www.cnblogs.com/dalianpai/p/12539240.html)
 
@@ -709,11 +709,11 @@ java使用
 
 ### 5.2.1 了解AOF
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_78.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_78.png)
 
 ### AOF持久化流程
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_79.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_79.png)
 
 ### 5.2.2 配置
 
@@ -722,93 +722,93 @@ java使用
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_80.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_80.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_81.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_81.png)
 
 
 💡 同时开启听AOF的
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_82.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_82.png)
 
 ### **AOF同步频率设置**
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_83.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_83.png)
 
 ### rewrite重写压缩操作
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_84.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_84.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_85.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_85.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_86.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_86.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_87.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_87.png)
 
 ### 5.2.3 AOF 优点 缺点
 
 ### 优点
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_88.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_88.png)
 
 ### 缺点
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_89.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_89.png)
 
 ### 5.2.4 AOF备份还原
 
 - **常规恢复 和rdb一样**
     
-    ![Untitled.png]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_90.png)
+    ![Untitled.png]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_90.png)
     
 - **异常恢复**
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_91.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_91.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_92.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_92.png)
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_93.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_93.png)
     
 
 # 6 RDB和AOF用哪个呢？
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_94.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_94.png)
 
 ## 官方建议
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_95.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_95.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_96.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_96.png)
 
 ### 性能建议
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_97.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_97.png)
 
 # 7 redis主从复制
 
 ## 7.1 了解redis主从复制
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_98.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_98.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_99.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_99.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_100.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_100.png)
 
 ### 原理
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_101.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_101.png)
 
 ## 7.2 配置redis主从复制
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_102.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_102.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_103.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_103.png)
 
 ### 进入指定端口的redis客户端
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_104.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_104.png)
 
 ### 配置从服务器并查看信息
 
@@ -817,21 +817,21 @@ java使用
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_105.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_105.png)
 
 ### 测试
 
 1. 主机写入key
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_106.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_106.png)
     
 2. 从机器就有了
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_107.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_107.png)
     
 3. 从机不能进行写操作
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_108.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_108.png)
     
 
 ## 7.3 常见三招
@@ -855,7 +855,7 @@ java使用
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_109.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_109.png)
 
 ### 7.3.3 反客为主
 
@@ -864,7 +864,7 @@ java使用
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_110.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_110.png)
 
 ## 7.4 哨兵模式(sentinal)
 
@@ -875,37 +875,37 @@ java使用
 
 ### 7.4.1 了解
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_111.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_111.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_112.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_112.png)
 
 ### 7.4.2 创建哨兵文件，并写配置
 
 创建 **sentinal.conf**   配置文件 。写入：
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_113.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_113.png)
 
 ### 7.4.3 执行命令
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_114.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_114.png)
 
 ### 7.4.4 哨兵规则
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_115.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_115.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_116.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_116.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_117.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_117.png)
 
 ### 7.4.5 缺点
 
 ### 复制延时
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_118.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_118.png)
 
 ### 7.4.6 jedis代码
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_119.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_119.png)
 
 # 8 redis 集群
 
@@ -920,9 +920,9 @@ java使用
 
 之前通过代理主机来解决，但是 redis3.0 中提供了解决方案。就是无中心化集群配置。
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_120.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_120.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_121.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_121.png)
 
 ### 什么是集群
 
@@ -937,30 +937,30 @@ Redis 集群通过分区（partition） 来提供一定程度的可用性（avai
 
 ### 8.2.1 配置
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_122.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_122.png)
 
 1. 配置基本信息
         
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_123.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_123.png)
         
 2. cluster配置
     
-    ![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_124.png)
+    ![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_124.png)
     
 
 ### 8.2.2 复制配置文件并替换
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_125.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_125.png)
 
 ### 8.2.3 替换修改文本
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_126.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_126.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_127.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_127.png)
 
 ### 8.2.4 启动6个服务并查看状态
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_128.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_128.png)
 
 ### 8.2.5 将6个节点合成一个集群 （重点）
 
@@ -974,37 +974,37 @@ Redis 集群通过分区（partition） 来提供一定程度的可用性（avai
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_129.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_129.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_130.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_130.png)
 
 ### 8.2.6 运行命令，他会自己做分配
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_131.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_131.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_132.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_132.png)
 
 ### 8.2.7 进入集群
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_133.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_133.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_134.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_134.png)
 
 ## 8.3 集群操作
 
 ### 8.3.1 redis cluster 是如何分配这6个节点的
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_135.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_135.png)
 
 ### 8.3.2 什么是slot
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_136.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_136.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_137.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_137.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_138.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_138.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_139.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_139.png)
 
 ### 8.3.3 查看集群中的值
 
@@ -1016,9 +1016,9 @@ Redis 集群通过分区（partition） 来提供一定程度的可用性（avai
 
 ### 8.3.4 但是不能插入多key 要设置 组
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_140.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_140.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_141.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_141.png)
 
 ## 8.4 redis集群 故障恢复
 
@@ -1027,11 +1027,11 @@ Redis 集群通过分区（partition） 来提供一定程度的可用性（avai
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_142.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_142.png)
 
 ## 8.5 jedis java使用集群
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_143.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_143.png)
 
 ## 8.6 优点和缺点
 
@@ -1055,7 +1055,7 @@ Redis 集群通过分区（partition） 来提供一定程度的可用性（avai
 
 ## 9.1 缓存穿透（黑客攻击，key不存在）
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_144.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_144.png)
 
 —个一定不存在缓存及查询不到的数据，由于缓存是不命中时被动与的，并且出于容错考虑，如果从存储层查不到数据则不写入缓存，这将导致这个不存在的数据每次请求都要到存储层去查询，失去了缓存的意义。
 
@@ -1076,7 +1076,7 @@ Redis 集群通过分区（partition） 来提供一定程度的可用性（avai
 
 ## 9.2 缓存击穿 （热门key过期）
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_145.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_145.png)
 
 key 对应的数据存在，但在 redis 中过期，此时若有大量并发请求过来，这些请求发现缓存过期一般都会从后端 DB加载数据并回设到缓存，这个时候大并发的请求可能会瞬间把后端 DB 压垮。
 
@@ -1099,11 +1099,11 @@ key 对应的数据存在，但在 redis 中过期，此时若有大量并发请
 
   (4）当操作返回失败，证明有线程在 load db，当前线程睡眠一段时间再重试整个 get缓存的方法。
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_146.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_146.png)
 
 ## 9.3 缓存雪崩（批量key过期）
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_147.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_147.png)
 
 ### 解决方案
 
@@ -1129,7 +1129,7 @@ key 对应的数据存在，但在 redis 中过期，此时若有大量并发请
 
 随着业务发展的需要，原单体单机部署的系统被演化成分布式集群系统后，由于分布式系统多线程、多进程并且分布在不同机器上，这将使原单机部署情况下的并发控制锁策略失效，单纯的 JaVa API并不能提供分布式锁的能力。为了解决这个问题就需要—种跨JVM的互斥机制来控制共享资源的访问，这就是分布式锁要解决的问题！
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_148.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_148.png)
 
 分布式锁主流的实现方案：
 
@@ -1161,7 +1161,7 @@ set key1 "value1" NX PX 10000
 
 **XX:只在键已经存在时,才对键进行设置操作**.
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_149.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_149.png)
 
 为了确保分布式锁可用，我们至少要确保锁的实现同时满足以下四个条件：
 
@@ -1177,35 +1177,35 @@ set key1 "value1" NX PX 10000
 
 
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_150.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_150.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_151.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_151.png)
 
 ### jedis java代码
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_152.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_152.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_153.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_153.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_154.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_154.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_155.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_155.png)
 
 测试num是1000 没问题
 
 ### 10.2.3 问题2 删错锁：uuid防误删
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_156.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_156.png)
 
 ### 改造代码
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_157.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_157.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_158.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_158.png)
 
 ### 10.2.4 问题3 删除锁原子性：使用lua脚本
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_159.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_159.png)
 
 LUA脚本是类似 redis 事务，有一定的原子性，不会被其他命令插队，可以完成一些 redis 事务性的操作。
 
@@ -1213,9 +1213,9 @@ LUA脚本是类似 redis 事务，有一定的原子性，不会被其他命令�
 
 利用 lua脚本淘汰用户，解决超卖问题。
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_160.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_160.png)
 
-![Untitled]( https://raw.githubusercontent.com/vayocc/vayo-docs-img/master/Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_161.png)
+![Untitled]( Redis6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B0%9A%E7%A1%85%E8%B0%B7/Untitled_161.png)
 
 # 11 redis6新功能
 
