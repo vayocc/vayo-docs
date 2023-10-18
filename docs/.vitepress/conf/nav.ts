@@ -81,8 +81,12 @@ export const nav: DefaultTheme.NavItem[] = [
                 link: '/articles/Tools/git/git命令'
             },
             {
-                text: 'Tools',
+                text: '开发工具',
                 link: '/articles/Tools/IDEA/IntelliJIDEA快捷键大全动图演示'
+            },
+            {
+                text: '其他工具',
+                link: '/articles/Tools/other/模拟手写'
             },
 
         ]

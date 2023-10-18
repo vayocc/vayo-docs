@@ -15,6 +15,7 @@ export const toolsSidebar = {
                 ]
             }
         ],
+
         '/articles/Tools/mvnrepository/': [
             {
                 text: '构建工具',
@@ -77,6 +78,18 @@ export const toolsSidebar = {
                     ]
                 },
 
+            ]
+        }
+    ],
+
+    '/articles/Tools/other/': [
+        {
+            text: '其他工具',
+            items: [
+                {
+                    text: '其他工具',
+                    link: '/articles/Tools/other/模拟手写效果'
+                }
             ]
         }
     ],
