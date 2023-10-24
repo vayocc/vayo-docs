@@ -8,7 +8,20 @@ export const sqlSidebar = {
             {
                 text: 'sql',
                 items: [
+                    {
+                        text: 'mysql',
+                        items: [
+                            {
+                                text: 'mysql-explain',
+                                link: '/articles/sql/mysql/explain'
+                            },
+                            {
+                                text: 'mysql开窗函数',
+                                link: '/articles/sql/mysql/mysql开窗函数'
+                            },
 
+                        ]
+                    },
 
                 ]
             },
