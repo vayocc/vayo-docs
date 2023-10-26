@@ -63,6 +63,18 @@ git push gitee 2f0897ac2565c1bcce8eb6e0d34b85226c6929db:master
 - `:`（冒号）：用于分隔本地提交和远程分支的分隔符。
 - `<remotebranchname>`：远程仓库的分支名称，表示你希望将本地提交推送到的目标分支。
 
+# git将某分支的某次提交合并到另一分支
+把（dev分支）的某一次提交合并到（master分支），这就需要`git cherry-pick`命令。
+
+首先，切换到dev分支，用 git log 命令，查找需要合并的commit记录，比如commit id ：fb40e111；
+
+然后，切换到master分支，使用 `git cherry-pick fb40e111 `，把该条commit记录合并到了master分支，这只是在本地合并到了master分支；
+
+最后，git push 提交到master远程，至此，就dev分支的这条commit的记录合并到了master分支。
+---
+idea操作更方便
+![IDEA_cherry-pick.png](git命令/IDEA_cherry-pick.png)
+
 # 配置本地git的name和邮箱
 
 ``` bash
