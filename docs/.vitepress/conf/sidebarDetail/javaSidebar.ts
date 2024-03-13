@@ -24,6 +24,10 @@ export const javaSidebar = {
                         text: "List拷贝",
                         link: "/articles/Java/List/ListCopy"
                     },
+                    {
+                        text: "List遇到过的问题",
+                        link: "/articles/Java/List/List问题"
+                    },
                 ]
             },
             {

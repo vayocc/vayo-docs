@@ -56,6 +56,15 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
+        text: '开发',
+        items: [
+            {
+                text: '正则',
+                link: '/articles/develop/regex/收集的regex'
+            },
+        ]
+    },
+    {
         text: '框架|中间件',
         items: [
             {
