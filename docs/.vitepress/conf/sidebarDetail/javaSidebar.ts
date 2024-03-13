@@ -66,6 +66,10 @@ export const javaSidebar = {
                                 text: 'xml转bean(xml数组问题',
                                 link: '/articles/Java/XML/xml转bean和xml数组问题'
                             },
+                            {
+                                text: 'xml解析和修改',
+                                link: '/articles/Java/XML/xml解析和修改'
+                            },
                         ]
                     }
                 ]
