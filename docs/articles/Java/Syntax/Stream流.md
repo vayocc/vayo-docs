@@ -321,8 +321,6 @@ VO.getBookInfoFileObjList().
 .sorted(Comparator.comparing(BookInfoFileVo::getUpdateTime,Comparator.reverseOrder())).collect(Collectors.toList());
 ```
 
-![Untitled](Stream%E6%B5%81-java8d2beba51c98542599aa364c74553dfc1/Untitled1.png)
-
 # flatmap 扁平化处理
 
 其实就是对dto里面的prop为list的 进
