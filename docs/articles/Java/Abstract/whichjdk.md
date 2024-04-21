@@ -1,5 +1,5 @@
 # 背景
-JDK如此之多，应该选择那个厂子下面的JDK呢？
+JDK如此之多，应该选择哪个厂子下面的JDK呢？
 
 whichjdk网址:https://whichjdk.com/
 
