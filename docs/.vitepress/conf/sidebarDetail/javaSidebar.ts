@@ -5,6 +5,15 @@ export const javaSidebar = {
 
         '/articles/Java/': [
             {
+                text: "前置",
+                items: [
+                    {
+                        text: "JDK如何选择",
+                        link: "/articles/Java/Abstract/whichjdk"
+                    }
+                ]
+            },
+            {
                 text: "Syntax",
                 items: [
                     {
