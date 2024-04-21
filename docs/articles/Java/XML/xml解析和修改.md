@@ -1,6 +1,6 @@
 # 问题背景：
 淘宝发布产品 complex里面的方法是setComplexValue,并不实际ComplexValues，那为啥参数是complexValues呢？
-小二回复：淘宝发布产品的complex还是老协议，需要使用<complex-values>
+小二回复：淘宝发布产品的complex还是老协议，需要使用`<complex-values>`
 所以要找到xml里面的标签并且替换里面你的名字
 
 
