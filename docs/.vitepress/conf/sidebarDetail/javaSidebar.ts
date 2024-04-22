@@ -72,7 +72,7 @@ export const javaSidebar = {
                         text: 'XML',
                         items: [
                             {
-                                text: 'xml转bean(xml数组问题',
+                                text: 'xml转bean & xml数组问题',
                                 link: '/articles/Java/XML/xml转bean和xml数组问题'
                             },
                             {
