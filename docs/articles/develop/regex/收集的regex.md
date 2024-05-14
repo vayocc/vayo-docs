@@ -1,6 +1,7 @@
 
 # 正则捕获组
 ```text
+例子1
 在正则表达式中，括号 ( ) 用于创建一个捕获组。每个括号内的表达式都会成为一个独立的捕获组。
 
 捕获组的作用是在匹配过程中提取或分组匹配的部分。通过使用 matcher.group(n) 方法，其中 n 是捕获组的索引，可以获取匹配的文本。
@@ -13,38 +14,85 @@
 
 捕获组在正则表达式中非常有用，可以用于提取和处理匹配的部分，或者对匹配的部分进行分组操作。
 ```
+```text
+例子2
+Pattern pattern = Pattern.compile("第(.*?)版");
+matcher.group(1) 是指匹配到的正则表达式中第一个括号内的子匹配结果。在这个例子中，正则表达式是 "第(.*?)版"，其中 (.*?) 是一个捕获组，表示匹配任意字符，*? 表示非贪婪匹配，也就是尽可能少地匹配字符，直到遇到下一个字符（这里是 "版"）。
 
+当 matcher.find() 方法找到匹配时，matcher.group(1) 就会返回匹配到的第一个括号内的内容，也就是版本号。
+matcher.group(0) 返回整个匹配到的字符串。在这个例子中，它会返回整个匹配到的版本字符串，包括 "第"、版本号和 "版" 这些部分。
+```
 # 正则日期格式化
 ```Java
-    public static void main(String[] args) {
-        String dateString2 = "2023年7";
-        String dateString1 = "2023.7月";
-        String dateString = "2023年7月";
-        String dateString3 = "2023年7.";
+@Test
+void dateFormat2() {
+    // 定义输入的日期格式
+    String[] PARSE_PATTERNS = {
+            "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss", "yyyy-MM-dd HH:mm", "yyyy-MM",
+            "yyyy/MM/dd", "yyyy/MM/dd HH:mm:ss", "yyyy/MM/dd HH:mm", "yyyy/MM",
+            "yyyy.MM.dd", "yyyy.MM.dd HH:mm:ss", "yyyy.MM.dd HH:mm", "yyyy.MM"};
 
-        String regex = "(\\d{4})[年.]?(\\d{1,2})[月.]?";
-        Pattern pattern = Pattern.compile(regex);
+    String[] ADDITIONAL_PATTERNS = {"yyyy年MM月",  "yyyy-MM", "yyyyMM"};
 
-        String formattedDate2 = formatDate(dateString2, pattern);
-        String formattedDate1 = formatDate(dateString1, pattern);
-        String formattedDate = formatDate(dateString, pattern);
-        String formattedDate3 = formatDate(dateString3, pattern);
-
-        System.out.println(formattedDate2);
-        System.out.println(formattedDate1);
-        System.out.println(formattedDate);
-        System.out.println(formattedDate3);
-    }
-
-    private static String formatDate(String dateString, Pattern pattern) {
-        Matcher matcher = pattern.matcher(dateString);
-        if (matcher.find()) {
-            String year = matcher.group(1);
-            String month = matcher.group(2);
-            return year + "-" + month;
+    String[] PARSE_PATTERNS_PLUS = Stream.concat(
+            Arrays.stream(PARSE_PATTERNS),
+            Arrays.stream(ADDITIONAL_PATTERNS)
+    ).toArray(String[]::new);
+    // 输入的日期字符串
+    String[] dates = {"2024-03-01", "2024年3月", "2024/03/01", "2024.03.01", "2024-03", "202403", "2024-03-01 00:00:00"};
+    for (String date : dates) {
+        try {
+            Date parsedDate = org.apache.commons.lang3.time.DateUtils.parseDate(date, PARSE_PATTERNS_PLUS);
+            String formattedDate = cn.hutool.core.date.DateUtil.format(parsedDate,"yyyy-MM");
+            System.out.println("输入: " + date + ", 输出: " + formattedDate);
+        } catch (Exception e) {
+           // ...
         }
-        return dateString;
     }
+}
+```
+结果
+```text
+输入: 2024-03-01, 输出: 2024-03
+输入: 2024年3月, 输出: 2024-03
+输入: 2024/03/01, 输出: 2024-03
+输入: 2024.03.01, 输出: 2024-03
+输入: 2024-03, 输出: 2024-03
+输入: 202403, 输出: 2024-03
+输入: 2024-03-01 00:00:00, 输出: 2024-03
+```
+
+::: details 以前写的方法，这个看起来太丑了
+```Java
+public static void main(String[] args) {
+    String dateString2 = "2023年7";
+    String dateString1 = "2023.7月";
+    String dateString = "2023年7月";
+    String dateString3 = "2023年7.";
+
+    String regex = "(\\d{4})[年.]?(\\d{1,2})[月.]?";
+    Pattern pattern = Pattern.compile(regex);
+
+    String formattedDate2 = formatDate(dateString2, pattern);
+    String formattedDate1 = formatDate(dateString1, pattern);
+    String formattedDate = formatDate(dateString, pattern);
+    String formattedDate3 = formatDate(dateString3, pattern);
+
+    System.out.println(formattedDate2);
+    System.out.println(formattedDate1);
+    System.out.println(formattedDate);
+    System.out.println(formattedDate3);
+}
+
+private static String formatDate(String dateString, Pattern pattern) {
+    Matcher matcher = pattern.matcher(dateString);
+    if (matcher.find()) {
+        String year = matcher.group(1);
+        String month = matcher.group(2);
+        return year + "-" + month;
+    }
+    return dateString;
+}
 ```
 结果
 ```text
@@ -53,7 +101,7 @@
 2023-7
 2023-7
 ```
-
+:::
 # 提取字符串中的固定字段的值(key1=val1,key2=val2)取val
 ```Java
         String string = "BookIMG2PlatformDTO(serialNo=1724306004619374594, localFileIds=[961], shopId=1646798525287153665, actions=[主图列表, 商品详情], platformItemId=123456789)";
@@ -125,7 +173,7 @@ System.out.println("ReUtil.getGroup1找到了方括号中的字符串>>" +  ReUt
 
 在上述示例中，方括号中的字符串是"最大"。你可以根据需要修改正则表达式来匹配不同的方括号内的内容。
 
-# 取数量
+# 取价格
 ```java
     // 来自阿里淘宝接口
     @Test
@@ -137,7 +185,7 @@ System.out.println("ReUtil.getGroup1找到了方括号中的字符串>>" +  ReUt
     }
 ```
 
-# 价格
+# 取数量
 ```java 
 value="([0-9]{0,9})(\.[0-9]{0,2})?"
 ```
