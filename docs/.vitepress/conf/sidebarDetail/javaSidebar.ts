@@ -61,6 +61,22 @@ export const javaSidebar = {
                 ]
             },
             {
+                text: "单元测试",
+                items: [
+                    {
+                        text: "junit",
+                        items: [
+                            {
+                                text: "junit中的@BeforeAll和@BeforeEach",
+                                link: "/articles/Java/unit/junit/junit中的@BeforeAll和@BeforeEach"
+                            },
+
+                        ]
+                    },
+
+                ]
+            },
+            {
                 text: 'JSON & XML',
                 collapsed: true, // 默认折叠
                 items: [
