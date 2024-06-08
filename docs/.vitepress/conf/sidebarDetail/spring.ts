@@ -26,6 +26,15 @@ export const springSidebar = {
                         text: '缓存@Cacheable',
                         link: '/articles/Spring/SpringBoot/缓存@Cacheable'
                     },
+                    {
+                        text: '线程池',
+                        items: [
+                            {
+                                text: 'SpringBoot的ThreadPoolTaskExecutor',
+                                link: '/articles/Spring/SpringBoot/线程池/SpringBoot-ThreadPoolTaskExecutor'
+                            }
+                        ]
+                    },
                 ]
             },
 
