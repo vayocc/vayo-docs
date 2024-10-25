@@ -11,7 +11,8 @@ lastUpdated: true
 hero:
   name: "VAYO"
   text: "Keep Exercise, Keep Study."
-  tagline: "虽未有备忘之才 然尽心力而为之"
+  # tagline: "虽未有备忘之才 然尽心力而为之"
+  tagline: "书到用时方恨少 事非经过不知难"
   image:
     # 首页右边的图片
     src: /avartar/vayo_avatar_pixian.png
