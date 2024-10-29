@@ -23,8 +23,14 @@
 ### b+tree
 ![img_7.png](img_7.png)
 ![img_8.png](img_8.png)
-## myISAM 和innoDB
+假如高度为3得b+Tree
 
+```sql
+show global status like 'innodb_page_seze' // 算出来每个节点默认16KB
+```
+
+主键bigint默认8B，每个索引和索引之间有一个存储空间，存储分叉节点得磁盘文件地址，大概6B，那么每个节点放满索引元素后就是16KB/(8B+6B)  大约等于1170 个， 叶子节点不光有主键索引也有data，按照1KB算，一个叶子节点16个，也就是1170*1170*16 大约是2千多万
+## myISAM 和innoDB
 ### myISAM（非聚簇索引）
 
 ![img_9.png](img_9.png)
