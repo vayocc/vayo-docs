@@ -10,6 +10,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: 'Java',
         items: [
             {
+                text: 'JVM',
+                link: '/articles/JVM/JVM虚拟机核心点与性能优化点/'
+            },
+            {
                 text: 'Java',
                 link: '/articles/Java/Syntax/Stream流'
             }

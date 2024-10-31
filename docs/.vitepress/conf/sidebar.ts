@@ -9,6 +9,7 @@ import {
     ormSidebar,
     developSidebar
 } from "./sidebarDetail";
+import {jvmSidebar} from "./sidebarDetail/jvm";
 
 
 
@@ -17,6 +18,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 
     ...examplesSidebar,
     ...javaSidebar,
+    ...jvmSidebar,
     ...springSidebar,
     ...toolsSidebar,
     ...ormSidebar,
