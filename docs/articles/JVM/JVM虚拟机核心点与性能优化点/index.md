@@ -7,9 +7,9 @@
 
 ## JVM 内存简易图
 <div style="display: flex; justify-content: space-between;">
-  <img src="e68cf09bf73356f8c18e3b67516061fe.png" alt="Image 1" width="67%">
+  <img src="./e68cf09bf73356f8c18e3b67516061fe.png" alt="Image 1" width="67%">
     <div style="text-align: center; width: 32%;">
-        <img src="image.png" alt="javap -c Math.class>math.txt反汇编文件" >
+        <img src="./image.png" alt="javap -c Math.class>math.txt反汇编文件" >
         <p>javap -c Math.class>math.txt反汇编文件</p>
     </div>
 </div>
@@ -38,11 +38,11 @@
 
 **紫色(栈内存，本地方法栈，程序计数器)是每个线程私享的，黄色(堆内存，元空间)是所有线程共享的**
 
-![9d1b5a64e1f15c6c1d522a82162dc1e2.png](9d1b5a64e1f15c6c1d522a82162dc1e2.png)
+![9d1b5a64e1f15c6c1d522a82162dc1e2.png](./9d1b5a64e1f15c6c1d522a82162dc1e2.png)
 
 ## jvm垃圾回收
 
-![0a21bd63c40cccf2934df5b1e1dc7587.png](0a21bd63c40cccf2934df5b1e1dc7587.png)
+![0a21bd63c40cccf2934df5b1e1dc7587.png](./0a21bd63c40cccf2934df5b1e1dc7587.png)
 
 年轻代1/3 vs 老年代2/3
 
@@ -50,21 +50,21 @@
 
 ### 垃圾增长图
 
-![bcf427637c63471426a5e98372af6c26.png](bcf427637c63471426a5e98372af6c26.png)
+![bcf427637c63471426a5e98372af6c26.png](./bcf427637c63471426a5e98372af6c26.png)
 
 ### jvm调优 模拟案例 1
 
-![b6711a0671b3e9135e5a2a452e94b8c2.png](b6711a0671b3e9135e5a2a452e94b8c2.png)
+![b6711a0671b3e9135e5a2a452e94b8c2.png](./b6711a0671b3e9135e5a2a452e94b8c2.png)
 
 假设有一个电商系统，每秒60m的对象进来，1秒后都会变垃圾对象，
 
 分析：14秒后占领eden区域，会触发minor gc，此时60m 大于 survivor中s0的一版大小，则直接进入老年代
 
-![f4b3184a57d0155bcc3f34718040d4da.png](f4b3184a57d0155bcc3f34718040d4da.png)
+![f4b3184a57d0155bcc3f34718040d4da.png](./f4b3184a57d0155bcc3f34718040d4da.png)
 
 解决： 调整survivor区的大小，这也不会让垃圾过大直接进入老年代，而是在survivor 进行minor gc 回收
 
-![dec6d4c9c9a41950f369585a7e72a5e9.png](dec6d4c9c9a41950f369585a7e72a5e9.png)
+![dec6d4c9c9a41950f369585a7e72a5e9.png](./dec6d4c9c9a41950f369585a7e72a5e9.png)
 
 ### jvm调优 怎么解决大内存
 
@@ -84,4 +84,4 @@
 
 ## jvm内存模型图
 
-![jvm内存模型图_small.jpg](jvmModelDiagram.jpg)
+![jvm内存模型图_small.jpg](./jvmModelDiagram.jpg)
