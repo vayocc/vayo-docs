@@ -79,6 +79,10 @@ export const toolsSidebar = {
                             text: 'gitignore忽略文件版本追踪',
                             link: '/articles/Tools/git/gitignore忽略文件版本追踪'
                         },
+                        {
+                            text: 'Git提交规范',
+                            link: '/articles/Tools/git/Git提交规范/'
+                        },
                     ]
                 },
 
