@@ -10,6 +10,7 @@ import {
     developSidebar
 } from "./sidebarDetail";
 import {jvmSidebar} from "./sidebarDetail/jvm";
+import {springCloudSidebar} from "./sidebarDetail/springCloud";
 
 
 
@@ -20,9 +21,11 @@ export const sidebar: DefaultTheme.Sidebar = {
     ...javaSidebar,
     ...jvmSidebar,
     ...springSidebar,
+    ...springCloudSidebar,
     ...toolsSidebar,
     ...ormSidebar,
     ...sqlSidebar,
+    ...developSidebar,
     ...developSidebar,
     // /articles/Algothm/表示对这个文件夹下的所有md文件做侧边栏配置
     '/articles/Algorithm/': [

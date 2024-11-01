@@ -30,7 +30,11 @@ export const nav: DefaultTheme.NavItem[] = [
             {
                 text: 'SpringFramework',
                 link: '/articles/Spring/SpringFramework/ResponseBodyAdvice'
-            }
+            },
+            {
+                text: 'SpringCloud',
+                link: '/articles/SpringCloud/SpringCloudAlibaba微服务相关核心公开课记录-图灵诸葛/'
+            },
 
         ]
     },
