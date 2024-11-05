@@ -67,6 +67,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '开发',
         items: [
             {
+                text: '分布式ID雪花算法',
+                link: '/articles/develop/Snowflake/'
+            },
+            {
                 text: '正则',
                 link: '/articles/develop/regex/收集的regex'
             },

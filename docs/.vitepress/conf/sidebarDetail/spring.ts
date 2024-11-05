@@ -15,6 +15,10 @@ export const springSidebar = {
                         link: '/articles/Spring/SpringBoot/SpringBoot-Actuator'
                     },
                     {
+                        text: 'SpringBoot_ioc容器的加载过程ioc循环依赖',
+                        link: '/articles/Spring/SpringBoot/springboot_ioc容器的加载过程ioc循环依赖/'
+                    },
+                    {
                         text: 'RequiredArgsConstructor',
                         link: '/articles/Spring/SpringBoot/RequiredArgsConstructor'
                     },

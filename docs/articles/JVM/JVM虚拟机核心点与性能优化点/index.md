@@ -1,4 +1,4 @@
-# 讲透JVM虚拟机面试核心点与性能优化点
+# 讲透JVM虚拟机面试核心点与性能优化点-图灵诸葛
 
 回放地址：[https://ab.shkt.online/c/hZfdbPFA2](https://ab.shkt.online/c/hZfdbPFA2)
 
